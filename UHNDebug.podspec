@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "http://github.ehealthinnovation.org/jmoore/UHNDebug.git", :tag => "0.1.0" }
 
-  # s.source_files  = 'UHNDebug.h'
+  s.source_files  = 'UHNDebug.h'
   s.public_header_files = 'UHNDebug.h'
 
 end
