@@ -18,7 +18,11 @@ Also includes a macro for `LogDebugEvent` for backwards compatibility with exist
 
 Add the following to your Podfile:
 
-    pod 'UHNDebug'
+    pod 'UHNDebug', :git => "http://github.ehealthinnovation.org/jmoore/UHNDebug.git"
+
+To specify a version:
+
+    pod 'UHNDebug', :git => "http://github.ehealthinnovation.org/jmoore/UHNDebug.git", :tag => '0.1.0'
 
 ### Changelog
 
